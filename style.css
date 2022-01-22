@@ -1,0 +1,380 @@
+#intro {
+    padding-top:0px; 
+    padding-left:0px; 
+    height:1024px; 
+    color: #fff; 
+    background-color: #2d3e50;
+  }
+
+  #home {
+    padding-top:0px; 
+    height:1024px; 
+    color: #fff; 
+    font-family: 'Taco Crispy';
+    background-color: #2d3e50;
+  }
+
+.kado {
+    width: 1024px;
+    left: 50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+   background-color: #2d3e50;
+}
+
+.container-fluid {
+    font-size: 4rem;
+    font-family: 'Chocolate';
+    text-shadow: 0 0 10px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 72pt;
+    font-family: 'Calibri';
+    text-align: right;
+    color: white;
+    line-height: 35px;
+  Line height: 100%;
+}
+
+h2 {
+    font-size: 36pt;
+    font-family: 'Calibri';
+    text-align: justify;
+    color: #2d3e50;
+}
+
+h3 {
+    font-size: 16pt;
+    font-family: 'Calibri';
+    text-align: justify;
+    color: #2d3e50;
+}
+
+.creator-image {
+    width: 50%;
+    float: left;
+}
+
+
+.about-image {
+    width: 50%;
+    float: left;
+    top: 20%;
+}
+
+.card {
+    width: 40%;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin: 20px;
+   font-family: 'Calibri';
+   background-color: white;
+   opacity: 50%;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 20px;
+   text-align: right;
+   color: white;
+   font-family: 'Arial';
+   height: 25%;
+}
+
+.logo {
+    position: absolute;
+    left: 5%;
+}
+
+.home {
+    position: absolute;
+    width: 418px;
+    height: 433px;
+    top: 1126px;
+    left: 295px;
+    cursor: pointer;
+}
+
+.home:hover {
+      opacity: 0;
+}
+
+.about {
+    position: absolute;
+    width: 432px;
+    height: 433px;
+    top: 1126px;
+    left: 713px;
+    cursor: pointer;
+}
+
+.about:hover {
+      opacity: 0;
+}
+
+
+.timeline {
+    position: absolute;
+    width: 418px;
+    height: 416px;
+    top: 1559px;
+    left: 295px;
+    cursor: pointer;
+}
+
+.timeline:hover {
+      opacity: 0;
+}
+
+.about-creator {
+    position: absolute;
+    width: 432px;
+    height: 416px;
+    top: 1559px;
+    left: 713px;
+    cursor: pointer;
+}
+
+.about-creator:hover {
+      opacity: 0;
+}
+
+
+.overlay {
+  position: absolute;
+   top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+    background-color: #2d3e50;
+    visibility: hidden;
+}
+
+.container {
+  position: absolute;
+    background-color: #2d3e50;
+}
+
+.container:hover .overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+
+
+.text-home {
+  color: white;
+  font-family: 'Taco Crispy';
+  font-size: 70px;
+  position: absolute;
+  top: 1461px;
+  left: 453px;
+  text-align: center;
+}
+
+.text-about {
+  color: white;
+  font-family: 'Taco Crispy';
+  font-size: 70px;
+  position: absolute;
+  top: 1461px;
+  left: 741px;
+  text-align: center;
+}
+
+.text-timeline {
+  color: white;
+  font-family: 'Taco Crispy';
+  font-size: 70px;
+  line-height: 30px;
+  Line height: 100%;
+  position: absolute;
+  top: 1564px;
+  left: 489px;
+  text-align: center;
+}
+
+.text-creator {
+  color: white;
+  font-family: 'Taco Crispy';
+  font-size: 55px;
+  line-height: 25px;
+  Line height: 100%;
+  position: absolute;
+  top: 1564px;
+  left: 739px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+font-family: 'Arial';
+font-size: 16px;
+position: fixed;
+text-align: center;
+bottom: 3%;
+right: 40%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #2d3e50;
+  font-family: Calibri, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline-dicoding {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline-dicoding::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container-timeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container-timeline::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container-timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container-timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}

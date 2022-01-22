@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <title>Dicoding 7th Anniversary</title>
+</head>
+<body>
+<div id="intro" class="container-fluid">
+    <p>
+      <br>Selamat Ulang Tahun</br>
+      <br><a href="#kado"><img class="logo" src="logo dicoding.png" alt="Logo Dicoding"></img></a></br>
+    </p>
+    <script src="confetti.js"></script>
+</div>
+<img src="kado.png" id="kado" class="kado"></img>
+<a href="index.html"><div id="home" class="container">
+   <div class="overlay">
+    <div class="text-home">HOME</div></div>
+    <img class="home" src="piece1.png" alt="Home"></img>
+  </div>
+</div></a>
+<a href="about.html"><div id="about" class="container">
+   <div class="overlay">
+    <div class="text-about">ABOUT
+    </div></div>
+    <img class="about" src="piece2.png" alt="About"></img>
+  </div>
+</div></a>
+<a href="timeline.html"><div id="timeline" class="container">
+    <div class="overlay">
+    <div class="text-timeline">
+        <br>TIME-</br>
+        <br>LINE</br>
+    </div>
+</div>
+    <img class="timeline" src="piece3.png" alt="Timeline"></img>
+    </div>
+  </div></a>
+<a href="about-creator.html"><div id="about-creator" class="container">
+   <div class="overlay">
+    <div class="text-creator">
+        <br>ABOUT</br>
+        <br>CREATOR</br></div></div>
+        <img class="about-creator" src="piece4.png" alt="About Creator"></img>
+
+    </div>
+  </div>
+</a>
+</div>
+    <!-- Confetti  JS-->
+    <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 300000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
+    <footer>
+  Created by Pamela Sarnia &copy; 2022
+</footer>
+</body>
+</html>

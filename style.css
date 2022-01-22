@@ -1,3 +1,33 @@
+
+.fixed1 {
+position: fixed;
+top: 0;
+left: 0;
+}
+
+nav {
+   background-color: black;
+   padding: 10px;
+   width: 100%;
+   height: 50px;
+   opacity: 0.9;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   padding: 10px;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+
+
 #intro {
     padding-top:0px; 
     padding-left:0px; 
@@ -13,6 +43,7 @@
     font-family: 'Taco Crispy';
     background-color: #2d3e50;
   }
+
 
 .kado {
     width: 1024px;
@@ -82,7 +113,7 @@ h3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    border-radius: 5px;
    padding: 20px;
-   margin: 20px;
+   margin: 40px;
    font-family: 'Calibri';
    background-color: white;
    opacity: 50%;
@@ -90,11 +121,12 @@ h3 {
 
 .jumbotron {
    font-size: 20px;
-   padding: 20px;
+   padding: 50px;
    text-align: right;
    color: white;
    font-family: 'Arial';
    height: 25%;
+   margin-top: 10px;
 }
 
 .logo {
